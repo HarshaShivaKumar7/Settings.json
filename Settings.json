@@ -1,0 +1,139 @@
+{
+
+    "editor.fontFamily": "OperatorMono",
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "Operator Mono",
+    "editor.fontLigatures": true,
+    "editor.fontWeight": "500",   // adjust for desired weight
+
+
+    "editor.fontSize": 20,
+    "editor.lineHeight": 28,
+    // "editor.fontWeight": "normal",
+    // "editor.fontFamily": "Consolas",
+    // "editor.fontLigatures": true,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "emphasis",
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": "strong",
+                "settings": {
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "entity.other.attribute-name",
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": "markup.underline",
+                "settings": {
+                    "fontStyle": "underline"
+                }
+            },
+            {
+                "scope": "markup.bold",
+                "settings": {
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "markup.heading",
+                "settings": {
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "markup.italic",
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "name": "String interpolation",
+                "scope": [
+                    "punctuation.definition.template-expression.begin",
+                    "punctuation.definition.template-expression.end",
+                    "punctuation.section.embedded"
+                ],
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "name": "this.self",
+                "scope": "variable.language",
+                "settings": {
+                    "fontStyle": "italic",
+                    "foreground": "#ff5874"
+                }
+            },
+            {
+                "name": "@Decorator",
+                "scope": [
+                    "meta.decorator punctuation.decorator"
+                ],
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": [
+                    "punctuation.definition.comment",
+                    "comment"
+                ],
+                "settings": {
+                    // "foreground": "#ff5874",
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": [
+                    //following will be in italic =FlottFlott
+                    "entity.name.type.class", //class names
+                    "keyword", //import, export, return…
+                    "constant", //String, Number, Boolean…, this, super
+                    "storage.modifier", //static keyword
+                    "storage.type",
+                    "storage.type.class.js", //class keyword
+                ],
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": [
+                    //following will be excluded from italics VSCode has some defaults for italics
+                    "invalid",
+                    "keyword.operator",
+                    "constant.numeric.css",
+                    "keyword.other.unit.px.css",
+                    "constant.numeric.decimal.js",
+                    "constant.numeric.json"
+                ],
+                "settings": {
+                    "fontStyle": ""
+                }
+            }
+        ]
+    },
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "explorer.confirmDelete": false,
+    "window.zoomLevel": 0,
+    "markdown.preview.fontSize": 20,
+    "terminal.integrated.localEchoStyle": "dim",
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "terminal.integrated.fontWeight": 300,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "liveServer.settings.donotVerifyTags": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "prettier.tabWidth": 16
+}
